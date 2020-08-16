@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    token:
+      url: http://localhost:8762
+    order:
+      url: http://localhost:8020
+  sensitive-headers:
+
+spring:
+  application:
+    name: gateway
+
+server:
+  port: 9070
